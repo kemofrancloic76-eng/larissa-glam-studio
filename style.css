@@ -361,6 +361,15 @@ h2{font-size:32px; margin:0 0 8px}
   }
 }
 
+section { scroll-margin-top: 90px }
+
+html { scroll-behavior: smooth; }
+
+#prestations, #galerie, #apropos, #contact, #reservation {
+  scroll-margin-top: 90px;
+}
+
+
 
 
 
