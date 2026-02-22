@@ -128,8 +128,8 @@ h2{font-size:32px; margin:0 0 8px}
 .card{
   height: 180px;
   border-radius: 18px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
 }
 }
 .card h3{margin:0 0 8px}
@@ -138,7 +138,7 @@ h2{font-size:32px; margin:0 0 8px}
 .bullets li{margin:6px 0}
 .link{color:var(--gold); font-weight:700}
 
-.gallery{display:grid; grid-template-columns: repeat(4, 1fr); gap:20px}
+.gallery{display:grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap:20px}
 .ph{
   height:180px;
   border-radius:18px;
@@ -353,5 +353,6 @@ h2{font-size:32px; margin:0 0 8px}
     grid-template-columns: 1fr;
   }
 }
+
 
 
