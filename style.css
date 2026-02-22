@@ -126,10 +126,11 @@ h2{font-size:32px; margin:0 0 8px}
 
 .cards{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px}
 .card{
-  border:1px solid var(--line);
-  background: rgba(255,255,255,.03);
-  border-radius:20px;
-  padding:18px;
+  height: 180px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+}
 }
 .card h3{margin:0 0 8px}
 .card p{margin:0 0 12px; color:var(--muted); line-height:1.7}
@@ -137,7 +138,7 @@ h2{font-size:32px; margin:0 0 8px}
 .bullets li{margin:6px 0}
 .link{color:var(--gold); font-weight:700}
 
-.gallery{display:grid; grid-template-columns: repeat(3, 1fr); gap:12px}
+.gallery{display:grid; grid-template-columns: repeat(4, 1fr); gap:20px}
 .ph{
   height:180px;
   border-radius:18px;
@@ -341,4 +342,16 @@ h2{font-size:32px; margin:0 0 8px}
 .brand-text {
   letter-spacing: 0.5px;
 }
+@media (max-width: 900px){
+  .gallery{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px){
+  .gallery{
+    grid-template-columns: 1fr;
+  }
+}
+
 
