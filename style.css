@@ -360,6 +360,7 @@ h2{font-size:32px; margin:0 0 8px}
     grid-template-columns: 1fr;
   }
 }
+section { scroll-margin-top: 90px }
 
 
 
