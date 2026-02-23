@@ -200,7 +200,18 @@ h2{font-size:32px; margin:0 0 8px}
 @media (max-width: 900px){
   .heroGrid{grid-template-columns: 1fr}
   .cards{grid-template-columns: 1fr}
-  .gallery{grid-template-columns: 1fr 1fr}
+.gallery{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px;
+}
+
+@media (max-width: 900px){
+  .gallery{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px){
+  .gallery{ grid-template-columns: 1fr; }
+}
   .about{grid-template-columns: 1fr}
   .contact{grid-template-columns: 1fr}
   h1{font-size:40px}
@@ -368,6 +379,7 @@ html { scroll-behavior: smooth; }
 #prestations, #galerie, #apropos, #contact, #reservation {
   scroll-margin-top: 90px;
 }
+
 
 
 
