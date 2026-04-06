@@ -379,15 +379,21 @@ html { scroll-behavior: smooth; }
 #prestations, #galerie, #apropos, #contact, #reservation {
   scroll-margin-top: 90px;
 }
-
 .contactIcon{
-  font-size: 28px;
+  font-size: 26px;
+  width: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
+.fa-whatsapp{
+  color: #25D366;
+}
 
+.fa-instagram{
+  color: #E1306C;
+}
 
 
 
