@@ -380,6 +380,12 @@ html { scroll-behavior: smooth; }
   scroll-margin-top: 90px;
 }
 
+.contactIcon{
+  font-size: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
